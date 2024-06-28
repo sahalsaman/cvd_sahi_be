@@ -6,7 +6,7 @@ const cors = require('cors');
 
 // Allow requests from a specific domain
 const corsOptions = {
-  origin: '*'
+  origin: 'https://cvd-sahithyolsav.vercel.app/'
 };
 
 app.use(cors(corsOptions));
